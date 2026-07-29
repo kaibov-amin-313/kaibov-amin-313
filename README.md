@@ -49,9 +49,9 @@ Code should still make sense in six months, to someone who isn't me.
 
 ### Colophon
 
-Portrait rendered as ASCII, 46 columns, from a single photograph.
-Set in the system monospace stack throughout.
-Built by hand. Revised 2026.07.
+Header is a hand-built SVG: portrait resolved to ASCII at 46 columns from one
+photograph, set in the system monospace stack, theme-aware, one pass of motion
+that plays once and then holds. No generators, no widgets.
 
 ---
 
