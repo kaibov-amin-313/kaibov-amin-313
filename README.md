@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
-  <img alt="Amin Kaibov — full-stack engineer, Almaty" src="header-light.svg" width="800">
+  <img alt="Amin Kaibov — full-stack engineer, Almaty" src="header-light.svg" width="900">
 </picture>
 
 ### Selected work
@@ -49,9 +49,12 @@ Code should still make sense in six months, to someone who isn't me.
 
 ### Colophon
 
-Header is a hand-built SVG: portrait resolved to ASCII at 46 columns from one
-photograph, set in the system monospace stack, theme-aware, one pass of motion
-that plays once and then holds. No generators, no widgets.
+Header is a hand-built SVG. Portrait resolved to ASCII at 46 columns from one
+photograph, filled with a vertical three-stop gradient so the figure reads as a colour
+sweep rather than flat type. Two lightnesses share one hue set, so the light and
+dark themes are the same design rather than two. One pass of motion: the portrait develops from coarse
+grain, then the specification rises line by line. Plays once, then holds. Honours
+`prefers-reduced-motion`. No generators, no widgets.
 
 ---
 

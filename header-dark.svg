@@ -1,142 +1,152 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="439" viewBox="0 0 900 439" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="496" viewBox="0 0 900 496" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 <style>
   .g1,.g2{opacity:0}
   .g3,.r{opacity:1}
   .g1{animation:s1 1.5s linear both}
   .g2{animation:s2 1.5s linear both}
   .g3{animation:s3 1.5s linear both}
-  .r{animation:rise .5s ease-out both}
-  .rule{stroke-dasharray:560;stroke-dashoffset:0;animation:draw .7s ease-out both}
+  .r{animation:rise .55s ease-out both}
+  .bloom{opacity:1;animation:blm 1.6s ease-out both}
+  .rule{stroke-dasharray:520;animation:draw .8s ease-out both}
   @keyframes s1{0%,22%{opacity:1}30%,100%{opacity:0}}
   @keyframes s2{0%,22%{opacity:0}30%,48%{opacity:1}56%,100%{opacity:0}}
   @keyframes s3{0%,48%{opacity:0}60%,100%{opacity:1}}
-  @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
-  @keyframes draw{from{stroke-dashoffset:560}to{stroke-dashoffset:0}}
-  @media (prefers-reduced-motion:reduce){.g1,.g2,.g3,.r,.rule{animation:none}}</style>
-<rect x="0.5" y="0.5" width="305.0" height="438" rx="2" fill="#E9E7E0" stroke="#33322E"/>
-<rect x="8.5" y="8.5" width="289.0" height="422.0" fill="none" stroke="#B9B4A6" stroke-width="0.5" opacity="0.55"/>
-<path d="M8.5 15.5 L8.5 8.5 L15.5 8.5" fill="none" stroke="#1C1C1A" stroke-width="0.9" opacity="0.75"/>
-<path d="M297.5 15.5 L297.5 8.5 L290.5 8.5" fill="none" stroke="#1C1C1A" stroke-width="0.9" opacity="0.75"/>
-<path d="M8.5 423.5 L8.5 430.5 L15.5 430.5" fill="none" stroke="#1C1C1A" stroke-width="0.9" opacity="0.75"/>
-<path d="M297.5 423.5 L297.5 430.5 L290.5 430.5" fill="none" stroke="#1C1C1A" stroke-width="0.9" opacity="0.75"/>
-<text class="g1" font-size="8.4" fill="#1C1C1A" xml:space="preserve">
-<tspan x="28" y="36.4" textLength="250.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
-<tspan x="28" y="47.8" textLength="250.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
-<tspan x="28" y="59.2" textLength="250.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
-<tspan x="28" y="70.6" textLength="250.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
-<tspan x="28" y="82.0" textLength="250.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
-<tspan x="28" y="93.4" textLength="250.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
-<tspan x="28" y="104.8" textLength="250.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
-<tspan x="28" y="116.2" textLength="250.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
-<tspan x="28" y="127.6" textLength="250.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
-<tspan x="28" y="139.0" textLength="250.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
-<tspan x="28" y="150.4" textLength="250.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
-<tspan x="28" y="161.8" textLength="250.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
-<tspan x="28" y="173.2" textLength="250.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
-<tspan x="28" y="184.6" textLength="250.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
-<tspan x="28" y="196.0" textLength="250.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
-<tspan x="28" y="207.4" textLength="250.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
-<tspan x="28" y="218.8" textLength="250.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
-<tspan x="28" y="230.2" textLength="250.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
-<tspan x="28" y="241.6" textLength="250.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
-<tspan x="28" y="253.0" textLength="250.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
-<tspan x="28" y="264.4" textLength="250.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
-<tspan x="28" y="275.8" textLength="250.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
-<tspan x="28" y="287.2" textLength="250.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
-<tspan x="28" y="298.6" textLength="250.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
-<tspan x="28" y="310.0" textLength="250.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
-<tspan x="28" y="321.4" textLength="250.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
-<tspan x="28" y="332.8" textLength="250.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
-<tspan x="28" y="344.2" textLength="250.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
-<tspan x="28" y="355.6" textLength="250.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
-<tspan x="28" y="367.0" textLength="250.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
-<tspan x="28" y="378.4" textLength="250.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
-<tspan x="28" y="389.8" textLength="250.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
+  @keyframes blm{0%{opacity:0}45%{opacity:.55}100%{opacity:1}}
+  @keyframes rise{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes draw{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion:reduce){.g1,.g2,.g3,.r,.bloom,.rule{animation:none}}</style>
+<defs>
+<linearGradient id="gr" gradientUnits="userSpaceOnUse" x1="42" y1="34" x2="42" y2="443"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#34D399"/><stop offset="1" stop-color="#D9F99D"/></linearGradient>
+<linearGradient id="rl" gradientUnits="userSpaceOnUse" x1="366" y1="151" x2="860" y2="151"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#34D399"/><stop offset="1" stop-color="#D9F99D" stop-opacity="0.2"/></linearGradient>
+<radialGradient id="bl" gradientUnits="userSpaceOnUse" cx="183" cy="248" r="230"><stop offset="0" stop-color="#0891B2" stop-opacity="0.26"/><stop offset="0.55" stop-color="#34D399" stop-opacity="0.07"/><stop offset="1" stop-color="#0891B2" stop-opacity="0"/></radialGradient>
+<radialGradient id="vig" gradientUnits="userSpaceOnUse" cx="450" cy="226" r="520"><stop offset="0.45" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.45"/></radialGradient>
+<linearGradient id="lit" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.051"/><stop offset="0.42" stop-color="#22D3EE" stop-opacity="0.34"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0.051"/></linearGradient>
+</defs>
+<rect width="900" height="496" rx="8" fill="#08202C"/>
+<rect width="900" height="496" rx="8" fill="url(#vig)"/>
+<ellipse class="bloom" cx="183" cy="248" rx="228" ry="212" fill="url(#bl)"/>
+<text class="g1" font-size="9.5" fill="url(#gr)" xml:space="preserve">
+<tspan x="42" y="43.5" textLength="282.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
+<tspan x="42" y="56.4" textLength="282.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
+<tspan x="42" y="69.3" textLength="282.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
+<tspan x="42" y="82.2" textLength="282.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
+<tspan x="42" y="95.1" textLength="282.0" lengthAdjust="spacing">         -----##############****-----         </tspan>
+<tspan x="42" y="108.0" textLength="282.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
+<tspan x="42" y="120.9" textLength="282.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
+<tspan x="42" y="133.8" textLength="282.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
+<tspan x="42" y="146.7" textLength="282.0" lengthAdjust="spacing">     ----%%%%%******************#####****     </tspan>
+<tspan x="42" y="159.6" textLength="282.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
+<tspan x="42" y="172.5" textLength="282.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
+<tspan x="42" y="185.4" textLength="282.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
+<tspan x="42" y="198.3" textLength="282.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
+<tspan x="42" y="211.2" textLength="282.0" lengthAdjust="spacing">     +++++++++--------------=========####-----</tspan>
+<tspan x="42" y="224.1" textLength="282.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
+<tspan x="42" y="237.0" textLength="282.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
+<tspan x="42" y="249.9" textLength="282.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
+<tspan x="42" y="262.8" textLength="282.0" lengthAdjust="spacing">---------*****####==========####*****====:::::</tspan>
+<tspan x="42" y="275.7" textLength="282.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
+<tspan x="42" y="288.6" textLength="282.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
+<tspan x="42" y="301.5" textLength="282.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
+<tspan x="42" y="314.4" textLength="282.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
+<tspan x="42" y="327.3" textLength="282.0" lengthAdjust="spacing">+++++====.....------------------:::::----.....</tspan>
+<tspan x="42" y="340.2" textLength="282.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
+<tspan x="42" y="353.1" textLength="282.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
+<tspan x="42" y="366.0" textLength="282.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
+<tspan x="42" y="378.9" textLength="282.0" lengthAdjust="spacing">.....=========----=====-----.........----.....</tspan>
+<tspan x="42" y="391.8" textLength="282.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
+<tspan x="42" y="404.7" textLength="282.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
+<tspan x="42" y="417.6" textLength="282.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
+<tspan x="42" y="430.5" textLength="282.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
+<tspan x="42" y="443.4" textLength="282.0" lengthAdjust="spacing">     ....=========+++++:::::....:::::         </tspan>
 </text>
-<text class="g2" font-size="8.4" fill="#1C1C1A" xml:space="preserve">
-<tspan x="28" y="36.4" textLength="250.0" lengthAdjust="spacing">             ..--++++++++++==::               </tspan>
-<tspan x="28" y="47.8" textLength="250.0" lengthAdjust="spacing">             ..--++++++++++==::               </tspan>
-<tspan x="28" y="59.2" textLength="250.0" lengthAdjust="spacing">        ..===##%%@@@@@@@@@@@@%%##+++..        </tspan>
-<tspan x="28" y="70.6" textLength="250.0" lengthAdjust="spacing">        ..===##%%@@@@@@@@@@@@%%##+++..        </tspan>
-<tspan x="28" y="82.0" textLength="250.0" lengthAdjust="spacing">      ==##%%%@@%%%%%%%%%%@@%%@@@@@@@%%==      </tspan>
-<tspan x="28" y="93.4" textLength="250.0" lengthAdjust="spacing">      ==##%%%@@%%%%%%%%%%@@%%@@@@@@@%%==      </tspan>
-<tspan x="28" y="104.8" textLength="250.0" lengthAdjust="spacing">      ++@@%%%++========++++++++++***%%@@++    </tspan>
-<tspan x="28" y="116.2" textLength="250.0" lengthAdjust="spacing">      ++@@%%%++========++++++++++***%%@@++    </tspan>
-<tspan x="28" y="127.6" textLength="250.0" lengthAdjust="spacing">      ++@@%%%++========++++++++++***%%@@++    </tspan>
-<tspan x="28" y="139.0" textLength="250.0" lengthAdjust="spacing">      **##---------=================++%%@@--  </tspan>
-<tspan x="28" y="150.4" textLength="250.0" lengthAdjust="spacing">      **##---------=================++%%@@--  </tspan>
-<tspan x="28" y="161.8" textLength="250.0" lengthAdjust="spacing">    ::**-----++++--::::::::--====+++====%%--  </tspan>
-<tspan x="28" y="173.2" textLength="250.0" lengthAdjust="spacing">    ::**-----++++--::::::::--====+++====%%--  </tspan>
-<tspan x="28" y="184.6" textLength="250.0" lengthAdjust="spacing">..::--**%%###++==++**----++==**##===******--::</tspan>
-<tspan x="28" y="196.0" textLength="250.0" lengthAdjust="spacing">..::--**%%###++==++**----++==**##===******--::</tspan>
-<tspan x="28" y="207.4" textLength="250.0" lengthAdjust="spacing">..------**%%%%%%%@@**----**%%%%%%%%%**====::::</tspan>
-<tspan x="28" y="218.8" textLength="250.0" lengthAdjust="spacing">..------**%%%%%%%@@**----**%%%%%%%%%**====::::</tspan>
-<tspan x="28" y="230.2" textLength="250.0" lengthAdjust="spacing">--++--::..===++**++::::..--******+++--::--::::</tspan>
-<tspan x="28" y="241.6" textLength="250.0" lengthAdjust="spacing">--++--::..===++**++::::..--******+++--::--::::</tspan>
-<tspan x="28" y="253.0" textLength="250.0" lengthAdjust="spacing">..##==--..   ....::--::::::...........::::....</tspan>
-<tspan x="28" y="264.4" textLength="250.0" lengthAdjust="spacing">..##==--..   ....::--::::::...........::::....</tspan>
-<tspan x="28" y="275.8" textLength="250.0" lengthAdjust="spacing">  **##**--...::--------------::.....::----::  </tspan>
-<tspan x="28" y="287.2" textLength="250.0" lengthAdjust="spacing">  **##**--...::--------------::.....::----::  </tspan>
-<tspan x="28" y="298.6" textLength="250.0" lengthAdjust="spacing">  ..--====:::::----====------::.....::++++::  </tspan>
-<tspan x="28" y="310.0" textLength="250.0" lengthAdjust="spacing">  ..--====:::::----====------::.....::++++::  </tspan>
-<tspan x="28" y="321.4" textLength="250.0" lengthAdjust="spacing">  ..--====:::::----====------::.....::++++::  </tspan>
-<tspan x="28" y="332.8" textLength="250.0" lengthAdjust="spacing">    ::--++***==--::--::::..         ......    </tspan>
-<tspan x="28" y="344.2" textLength="250.0" lengthAdjust="spacing">    ::--++***==--::--::::..         ......    </tspan>
-<tspan x="28" y="355.6" textLength="250.0" lengthAdjust="spacing">      ..*****==******++==::::....---::        </tspan>
-<tspan x="28" y="367.0" textLength="250.0" lengthAdjust="spacing">      ..*****==******++==::::....---::        </tspan>
-<tspan x="28" y="378.4" textLength="250.0" lengthAdjust="spacing">        ..---::::--====--::....=====          </tspan>
-<tspan x="28" y="389.8" textLength="250.0" lengthAdjust="spacing">        ..---::::--====--::....=====          </tspan>
+<text class="g2" font-size="9.5" fill="url(#gr)" xml:space="preserve">
+<tspan x="42" y="43.5" textLength="282.0" lengthAdjust="spacing">             ..--++++++++++==::               </tspan>
+<tspan x="42" y="56.4" textLength="282.0" lengthAdjust="spacing">             ..--++++++++++==::               </tspan>
+<tspan x="42" y="69.3" textLength="282.0" lengthAdjust="spacing">        ..===##%%@@@@@@@@@@@@%%##+++..        </tspan>
+<tspan x="42" y="82.2" textLength="282.0" lengthAdjust="spacing">        ..===##%%@@@@@@@@@@@@%%##+++..        </tspan>
+<tspan x="42" y="95.1" textLength="282.0" lengthAdjust="spacing">      ==##%%%@@%%%%%%%%%%@@%%@@@@@@@%%==      </tspan>
+<tspan x="42" y="108.0" textLength="282.0" lengthAdjust="spacing">      ==##%%%@@%%%%%%%%%%@@%%@@@@@@@%%==      </tspan>
+<tspan x="42" y="120.9" textLength="282.0" lengthAdjust="spacing">      ++@@%%%++========++++++++++***%%@@++    </tspan>
+<tspan x="42" y="133.8" textLength="282.0" lengthAdjust="spacing">      ++@@%%%++========++++++++++***%%@@++    </tspan>
+<tspan x="42" y="146.7" textLength="282.0" lengthAdjust="spacing">      ++@@%%%++========++++++++++***%%@@++    </tspan>
+<tspan x="42" y="159.6" textLength="282.0" lengthAdjust="spacing">      **##---------=================++%%@@--  </tspan>
+<tspan x="42" y="172.5" textLength="282.0" lengthAdjust="spacing">      **##---------=================++%%@@--  </tspan>
+<tspan x="42" y="185.4" textLength="282.0" lengthAdjust="spacing">    ::**-----++++--::::::::--====+++====%%--  </tspan>
+<tspan x="42" y="198.3" textLength="282.0" lengthAdjust="spacing">    ::**-----++++--::::::::--====+++====%%--  </tspan>
+<tspan x="42" y="211.2" textLength="282.0" lengthAdjust="spacing">..::--**%%###++==++**----++==**##===******--::</tspan>
+<tspan x="42" y="224.1" textLength="282.0" lengthAdjust="spacing">..::--**%%###++==++**----++==**##===******--::</tspan>
+<tspan x="42" y="237.0" textLength="282.0" lengthAdjust="spacing">..------**%%%%%%%@@**----**%%%%%%%%%**====::::</tspan>
+<tspan x="42" y="249.9" textLength="282.0" lengthAdjust="spacing">..------**%%%%%%%@@**----**%%%%%%%%%**====::::</tspan>
+<tspan x="42" y="262.8" textLength="282.0" lengthAdjust="spacing">--++--::..===++**++::::..--******+++--::--::::</tspan>
+<tspan x="42" y="275.7" textLength="282.0" lengthAdjust="spacing">--++--::..===++**++::::..--******+++--::--::::</tspan>
+<tspan x="42" y="288.6" textLength="282.0" lengthAdjust="spacing">..##==--..   ....::--::::::...........::::....</tspan>
+<tspan x="42" y="301.5" textLength="282.0" lengthAdjust="spacing">..##==--..   ....::--::::::...........::::....</tspan>
+<tspan x="42" y="314.4" textLength="282.0" lengthAdjust="spacing">  **##**--...::--------------::.....::----::  </tspan>
+<tspan x="42" y="327.3" textLength="282.0" lengthAdjust="spacing">  **##**--...::--------------::.....::----::  </tspan>
+<tspan x="42" y="340.2" textLength="282.0" lengthAdjust="spacing">  ..--====:::::----====------::.....::++++::  </tspan>
+<tspan x="42" y="353.1" textLength="282.0" lengthAdjust="spacing">  ..--====:::::----====------::.....::++++::  </tspan>
+<tspan x="42" y="366.0" textLength="282.0" lengthAdjust="spacing">  ..--====:::::----====------::.....::++++::  </tspan>
+<tspan x="42" y="378.9" textLength="282.0" lengthAdjust="spacing">    ::--++***==--::--::::..         ......    </tspan>
+<tspan x="42" y="391.8" textLength="282.0" lengthAdjust="spacing">    ::--++***==--::--::::..         ......    </tspan>
+<tspan x="42" y="404.7" textLength="282.0" lengthAdjust="spacing">      ..*****==******++==::::....---::        </tspan>
+<tspan x="42" y="417.6" textLength="282.0" lengthAdjust="spacing">      ..*****==******++==::::....---::        </tspan>
+<tspan x="42" y="430.5" textLength="282.0" lengthAdjust="spacing">        ..---::::--====--::....=====          </tspan>
+<tspan x="42" y="443.4" textLength="282.0" lengthAdjust="spacing">        ..---::::--====--::....=====          </tspan>
 </text>
-<text class="g3" font-size="8.4" fill="#1C1C1A" xml:space="preserve">
-<tspan x="28" y="36.4" textLength="250.0" lengthAdjust="spacing">                 .:--====--:.                 </tspan>
-<tspan x="28" y="47.8" textLength="250.0" lengthAdjust="spacing">             .:=*###********++-:.             </tspan>
-<tspan x="28" y="59.2" textLength="250.0" lengthAdjust="spacing">           :+#%##%@%%%%%%%%%%%%#*=:           </tspan>
-<tspan x="28" y="70.6" textLength="250.0" lengthAdjust="spacing">         .=+*#%%%%%%@@@@@@@@@@@@@@%+:         </tspan>
-<tspan x="28" y="82.0" textLength="250.0" lengthAdjust="spacing">        -+*#%%%%%%%@%%%%%%%%%%%%%%@@%+.       </tspan>
-<tspan x="28" y="93.4" textLength="250.0" lengthAdjust="spacing">      :*##%@@@@@@@@%@@@@@@@@@@@@@@%%@%*:      </tspan>
-<tspan x="28" y="104.8" textLength="250.0" lengthAdjust="spacing">     .+%@@@%@%##********########%%@@@%@#-     </tspan>
-<tspan x="28" y="116.2" textLength="250.0" lengthAdjust="spacing">       =%%@@#+=-==============+++**#%@%@#-    </tspan>
-<tspan x="28" y="127.6" textLength="250.0" lengthAdjust="spacing">       #@%%*=-----================++*%@%%*:   </tspan>
-<tspan x="28" y="139.0" textLength="250.0" lengthAdjust="spacing">       %@%+------==================++*%%@%*.  </tspan>
-<tspan x="28" y="150.4" textLength="250.0" lengthAdjust="spacing">      =%%+-:-----------=--=-=========+#%%@+.  </tspan>
-<tspan x="28" y="161.8" textLength="250.0" lengthAdjust="spacing">     :#**:::-=--:...:::::::.::---=====+#%@-   </tspan>
-<tspan x="28" y="173.2" textLength="250.0" lengthAdjust="spacing">  -..+-*=-=*#####*+:.:....:-=++++**+=--=#%-.  </tspan>
-<tspan x="28" y="184.6" textLength="250.0" lengthAdjust="spacing">  . =-=#%%@#+++==-+*=::::+++*+*%@#++**==#*.== </tspan>
-<tspan x="28" y="196.0" textLength="250.0" lengthAdjust="spacing"> .:.--=###@*==--==+##+==*#=:--=##+:-*@#**+::=.</tspan>
-<tspan x="28" y="207.4" textLength="250.0" lengthAdjust="spacing"> :+::=--+##%*#%%%@@#*-::=+%%%@%%%%%%#+=+*+::-.</tspan>
-<tspan x="28" y="218.8" textLength="250.0" lengthAdjust="spacing"> .-=:--::#*%%%%@%@@*:.-:.=%@%%%%%@%%#-:-=-..-:</tspan>
-<tspan x="28" y="230.2" textLength="250.0" lengthAdjust="spacing">.+#+:--:::+%%%@@%%*-::::::=#%@@@%#%#=-:-:-:.-:</tspan>
-<tspan x="28" y="241.6" textLength="250.0" lengthAdjust="spacing">.+%+---::..:---=-:::..:...:-=++++--:.::--::.:.</tspan>
-<tspan x="28" y="253.0" textLength="250.0" lengthAdjust="spacing"> .**:=--:.......:::-=::.:-:::........::--:... </tspan>
-<tspan x="28" y="264.4" textLength="250.0" lengthAdjust="spacing"> .#%=---:......:::--=-:::--::::.......--.:... </tspan>
-<tspan x="28" y="275.8" textLength="250.0" lengthAdjust="spacing"> :#@%*===......:::---:----::.::......:-:.. .. </tspan>
-<tspan x="28" y="287.2" textLength="250.0" lengthAdjust="spacing"> .+%%###+::..::--=--------:--:::....:-=:-:-:  </tspan>
-<tspan x="28" y="298.6" textLength="250.0" lengthAdjust="spacing">  :-=--=+-::..-======-------=-:....::-+++++:  </tspan>
-<tspan x="28" y="310.0" textLength="250.0" lengthAdjust="spacing">   :----++:::::----=====--::--:.:::..-++++-   </tspan>
-<tspan x="28" y="321.4" textLength="250.0" lengthAdjust="spacing">   .-====*+-:::----===-==--::::..   :====-.   </tspan>
-<tspan x="28" y="332.8" textLength="250.0" lengthAdjust="spacing">    .:--:-#*=::::::::::......     ..   ..     </tspan>
-<tspan x="28" y="344.2" textLength="250.0" lengthAdjust="spacing">      ::-*#+#+=--------:.       ....:         </tspan>
-<tspan x="28" y="355.6" textLength="250.0" lengthAdjust="spacing">       .=*%=-*%##*+++==-:...:---.  *-         </tspan>
-<tspan x="28" y="367.0" textLength="250.0" lengthAdjust="spacing">        .*%+-:-+##%%%%##**++=:.  :*#          </tspan>
-<tspan x="28" y="378.4" textLength="250.0" lengthAdjust="spacing">         :=+--:::-==++=--:.    .=#*.          </tspan>
-<tspan x="28" y="389.8" textLength="250.0" lengthAdjust="spacing">           .:::::::--:.      :=+*=            </tspan>
+<text class="g3" font-size="9.5" fill="url(#gr)" xml:space="preserve">
+<tspan x="42" y="43.5" textLength="282.0" lengthAdjust="spacing">                 .:--====--:.                 </tspan>
+<tspan x="42" y="56.4" textLength="282.0" lengthAdjust="spacing">             .:=*###********++-:.             </tspan>
+<tspan x="42" y="69.3" textLength="282.0" lengthAdjust="spacing">           :+#%##%@%%%%%%%%%%%%#*=:           </tspan>
+<tspan x="42" y="82.2" textLength="282.0" lengthAdjust="spacing">         .=+*#%%%%%%@@@@@@@@@@@@@@%+:         </tspan>
+<tspan x="42" y="95.1" textLength="282.0" lengthAdjust="spacing">        -+*#%%%%%%%@%%%%%%%%%%%%%%@@%+.       </tspan>
+<tspan x="42" y="108.0" textLength="282.0" lengthAdjust="spacing">      :*##%@@@@@@@@%@@@@@@@@@@@@@@%%@%*:      </tspan>
+<tspan x="42" y="120.9" textLength="282.0" lengthAdjust="spacing">     .+%@@@%@%##********########%%@@@%@#-     </tspan>
+<tspan x="42" y="133.8" textLength="282.0" lengthAdjust="spacing">       =%%@@#+=-==============+++**#%@%@#-    </tspan>
+<tspan x="42" y="146.7" textLength="282.0" lengthAdjust="spacing">       #@%%*=-----================++*%@%%*:   </tspan>
+<tspan x="42" y="159.6" textLength="282.0" lengthAdjust="spacing">       %@%+------==================++*%%@%*.  </tspan>
+<tspan x="42" y="172.5" textLength="282.0" lengthAdjust="spacing">      =%%+-:-----------=--=-=========+#%%@+.  </tspan>
+<tspan x="42" y="185.4" textLength="282.0" lengthAdjust="spacing">     :#**:::-=--:...:::::::.::---=====+#%@-   </tspan>
+<tspan x="42" y="198.3" textLength="282.0" lengthAdjust="spacing">  -..+-*=-=*#####*+:.:....:-=++++**+=--=#%-.  </tspan>
+<tspan x="42" y="211.2" textLength="282.0" lengthAdjust="spacing">  . =-=#%%@#+++==-+*=::::+++*+*%@#++**==#*.== </tspan>
+<tspan x="42" y="224.1" textLength="282.0" lengthAdjust="spacing"> .:.--=###@*==--==+##+==*#=:--=##+:-*@#**+::=.</tspan>
+<tspan x="42" y="237.0" textLength="282.0" lengthAdjust="spacing"> :+::=--+##%*#%%%@@#*-::=+%%%@%%%%%%#+=+*+::-.</tspan>
+<tspan x="42" y="249.9" textLength="282.0" lengthAdjust="spacing"> .-=:--::#*%%%%@%@@*:.-:.=%@%%%%%@%%#-:-=-..-:</tspan>
+<tspan x="42" y="262.8" textLength="282.0" lengthAdjust="spacing">.+#+:--:::+%%%@@%%*-::::::=#%@@@%#%#=-:-:-:.-:</tspan>
+<tspan x="42" y="275.7" textLength="282.0" lengthAdjust="spacing">.+%+---::..:---=-:::..:...:-=++++--:.::--::.:.</tspan>
+<tspan x="42" y="288.6" textLength="282.0" lengthAdjust="spacing"> .**:=--:.......:::-=::.:-:::........::--:... </tspan>
+<tspan x="42" y="301.5" textLength="282.0" lengthAdjust="spacing"> .#%=---:......:::--=-:::--::::.......--.:... </tspan>
+<tspan x="42" y="314.4" textLength="282.0" lengthAdjust="spacing"> :#@%*===......:::---:----::.::......:-:.. .. </tspan>
+<tspan x="42" y="327.3" textLength="282.0" lengthAdjust="spacing"> .+%%###+::..::--=--------:--:::....:-=:-:-:  </tspan>
+<tspan x="42" y="340.2" textLength="282.0" lengthAdjust="spacing">  :-=--=+-::..-======-------=-:....::-+++++:  </tspan>
+<tspan x="42" y="353.1" textLength="282.0" lengthAdjust="spacing">   :----++:::::----=====--::--:.:::..-++++-   </tspan>
+<tspan x="42" y="366.0" textLength="282.0" lengthAdjust="spacing">   .-====*+-:::----===-==--::::..   :====-.   </tspan>
+<tspan x="42" y="378.9" textLength="282.0" lengthAdjust="spacing">    .:--:-#*=::::::::::......     ..   ..     </tspan>
+<tspan x="42" y="391.8" textLength="282.0" lengthAdjust="spacing">      ::-*#+#+=--------:.       ....:         </tspan>
+<tspan x="42" y="404.7" textLength="282.0" lengthAdjust="spacing">       .=*%=-*%##*+++==-:...:---.  *-         </tspan>
+<tspan x="42" y="417.6" textLength="282.0" lengthAdjust="spacing">        .*%+-:-+##%%%%##**++=:.  :*#          </tspan>
+<tspan x="42" y="430.5" textLength="282.0" lengthAdjust="spacing">         :=+--:::-==++=--:.    .=#*.          </tspan>
+<tspan x="42" y="443.4" textLength="282.0" lengthAdjust="spacing">           .:::::::--:.      :=+*=            </tspan>
 </text>
-<text class="r" style="animation-delay:1.35s" x="28" y="422" font-size="6.8" letter-spacing="1.5" fill="#8C877A">ASCII · 46 COL · ONE PHOTOGRAPH</text>
-<text class="r" style="animation-delay:1.40s" x="278.0" y="422" text-anchor="end" font-size="6.8" letter-spacing="1.5" fill="#C0A578">NO. 313</text>
-<text class="r" style="animation-delay:0.80s" x="366.0" y="52" font-size="8.5" letter-spacing="2.6" fill="#7C7A73">FULL-STACK ENGINEER</text>
-<text class="r" style="animation-delay:0.89s" x="366.0" y="97" font-size="40" letter-spacing="7" fill="#EDEDEB">AMIN KAIBOV</text>
-<text class="r" style="animation-delay:0.98s" x="366.0" y="121" font-size="11" letter-spacing="0.2" fill="#7C7A73">Premium interfaces that hold up in seven languages and three scripts.</text>
-<line class="rule" style="animation-delay:1.08s" x1="366.0" y1="144" x2="876" y2="144" stroke="#C0A578" stroke-width="1"/>
-<g class="r" style="animation-delay:1.20s"><line x1="366.0" y1="144" x2="366.0" y2="149" stroke="#2A2A27" stroke-width="1"/><line x1="392.0" y1="144" x2="392.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="418.0" y1="144" x2="418.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="444.0" y1="144" x2="444.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="470.0" y1="144" x2="470.0" y2="149" stroke="#2A2A27" stroke-width="1"/><line x1="496.0" y1="144" x2="496.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="522.0" y1="144" x2="522.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="548.0" y1="144" x2="548.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="574.0" y1="144" x2="574.0" y2="149" stroke="#2A2A27" stroke-width="1"/><line x1="600.0" y1="144" x2="600.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="626.0" y1="144" x2="626.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="652.0" y1="144" x2="652.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="678.0" y1="144" x2="678.0" y2="149" stroke="#2A2A27" stroke-width="1"/><line x1="704.0" y1="144" x2="704.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="730.0" y1="144" x2="730.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="756.0" y1="144" x2="756.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="782.0" y1="144" x2="782.0" y2="149" stroke="#2A2A27" stroke-width="1"/><line x1="808.0" y1="144" x2="808.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="834.0" y1="144" x2="834.0" y2="147" stroke="#2A2A27" stroke-width="1"/><line x1="860.0" y1="144" x2="860.0" y2="147" stroke="#2A2A27" stroke-width="1"/></g>
-<g class="r" style="animation-delay:1.38s"><text x="366.0" y="178" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">LOCATION</text><text x="484.0" y="178" font-size="11.5" fill="#EDEDEB">Almaty, Kazakhstan</text></g>
-<g class="r" style="animation-delay:1.43s"><text x="366.0" y="199" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">NEXT</text><text x="484.0" y="199" font-size="11.5" fill="#EDEDEB">Bahçeşehir University, Istanbul</text></g>
-<g class="r" style="animation-delay:1.48s"><text x="366.0" y="231" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">FRONTEND</text><text x="484.0" y="231" font-size="11.5" fill="#EDEDEB">TypeScript · React · Next.js · Tailwind</text></g>
-<g class="r" style="animation-delay:1.54s"><text x="366.0" y="252" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">BACKEND</text><text x="484.0" y="252" font-size="11.5" fill="#EDEDEB">Node.js · PostgreSQL · Prisma · Neon</text></g>
-<g class="r" style="animation-delay:1.59s"><text x="366.0" y="273" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">DEPLOY</text><text x="484.0" y="273" font-size="11.5" fill="#EDEDEB">Vercel</text></g>
-<g class="r" style="animation-delay:1.65s"><text x="366.0" y="305" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">SPEAKS</text><text x="484.0" y="305" font-size="11.5" fill="#EDEDEB">RU · EN · AZ · KK · TR · AR · FA</text></g>
-<g class="r" style="animation-delay:1.70s"><text x="366.0" y="326" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">STUDYING</text><text x="484.0" y="326" font-size="11.5" fill="#EDEDEB">System design · Backend · Performance</text></g>
-<g class="r" style="animation-delay:1.76s"><text x="366.0" y="358" font-size="8.5" letter-spacing="1.9" fill="#7C7A73">GITHUB</text><text x="484.0" y="358" font-size="11.5" fill="#EDEDEB">kaibov-amin-313</text></g>
-<line class="r" style="animation-delay:1.86s" x1="366.0" y1="408" x2="876" y2="408" stroke="#2A2A27" stroke-width="1"/>
-<text class="r" style="animation-delay:1.92s" x="366.0" y="422" font-size="8.5" letter-spacing="1.1" fill="#7C7A73">43.2380° N · 76.8829° E</text>
-<text class="r" style="animation-delay:1.96s" x="876" y="422" text-anchor="end" font-size="8.5" letter-spacing="1.1" fill="#7C7A73">REV 2026.07</text>
+<text class="r" style="animation-delay:1.35s" x="42" y="470" font-size="7" letter-spacing="1.6" fill="#A3A2AF">ASCII · 46 COL · ONE PHOTOGRAPH</text>
+<text class="r" style="animation-delay:1.40s" x="324.0" y="470" text-anchor="end" font-size="7" letter-spacing="1.6" fill="#D9F99D">NO. 313</text>
+<text class="r" style="animation-delay:0.80s" x="366" y="58" font-size="8.5" letter-spacing="2.7" fill="#34D399">FULL-STACK ENGINEER · UI/UX DESIGNER</text>
+<text class="r" style="animation-delay:0.89s" x="366" y="104" font-size="40" letter-spacing="7" fill="#F4F4F2">AMIN KAIBOV</text>
+<text class="r" style="animation-delay:0.98s" x="366" y="128" font-size="11" fill="#A3A2AF">Premium interfaces that hold up in seven languages and three scripts.</text>
+<line class="rule" style="animation-delay:1.08s" x1="366" y1="151" x2="860" y2="151" stroke="url(#rl)" stroke-width="1.4"/>
+<g class="r" style="animation-delay:1.22s"><line x1="366" y1="151" x2="366" y2="156" stroke="#26252F" stroke-width="1"/><line x1="392" y1="151" x2="392" y2="154" stroke="#26252F" stroke-width="1"/><line x1="418" y1="151" x2="418" y2="154" stroke="#26252F" stroke-width="1"/><line x1="444" y1="151" x2="444" y2="154" stroke="#26252F" stroke-width="1"/><line x1="470" y1="151" x2="470" y2="156" stroke="#26252F" stroke-width="1"/><line x1="496" y1="151" x2="496" y2="154" stroke="#26252F" stroke-width="1"/><line x1="522" y1="151" x2="522" y2="154" stroke="#26252F" stroke-width="1"/><line x1="548" y1="151" x2="548" y2="154" stroke="#26252F" stroke-width="1"/><line x1="574" y1="151" x2="574" y2="156" stroke="#26252F" stroke-width="1"/><line x1="600" y1="151" x2="600" y2="154" stroke="#26252F" stroke-width="1"/><line x1="626" y1="151" x2="626" y2="154" stroke="#26252F" stroke-width="1"/><line x1="652" y1="151" x2="652" y2="154" stroke="#26252F" stroke-width="1"/><line x1="678" y1="151" x2="678" y2="156" stroke="#26252F" stroke-width="1"/><line x1="704" y1="151" x2="704" y2="154" stroke="#26252F" stroke-width="1"/><line x1="730" y1="151" x2="730" y2="154" stroke="#26252F" stroke-width="1"/><line x1="756" y1="151" x2="756" y2="154" stroke="#26252F" stroke-width="1"/><line x1="782" y1="151" x2="782" y2="156" stroke="#26252F" stroke-width="1"/><line x1="808" y1="151" x2="808" y2="154" stroke="#26252F" stroke-width="1"/><line x1="834" y1="151" x2="834" y2="154" stroke="#26252F" stroke-width="1"/><line x1="860" y1="151" x2="860" y2="154" stroke="#26252F" stroke-width="1"/></g>
+<g class="r" style="animation-delay:1.39s"><text x="366" y="186" font-size="8.5" letter-spacing="1.9" fill="#22D3EE" opacity="0.9">LOCATION</text><text x="484" y="186" font-size="11.5" fill="#F4F4F2">Almaty, Kazakhstan</text></g>
+<g class="r" style="animation-delay:1.45s"><text x="366" y="207" font-size="8.5" letter-spacing="1.9" fill="#22D3EE" opacity="0.9">NEXT</text><text x="484" y="207" font-size="11.5" fill="#F4F4F2">Bahçeşehir University, Istanbul</text></g>
+<g class="r" style="animation-delay:1.50s"><text x="366" y="239" font-size="8.5" letter-spacing="1.9" fill="#34D399" opacity="0.9">CORE</text><text x="484" y="239" font-size="11.5" fill="#F4F4F2">HTML · CSS · JavaScript</text></g>
+<g class="r" style="animation-delay:1.56s"><text x="366" y="260" font-size="8.5" letter-spacing="1.9" fill="#34D399" opacity="0.9">FRONTEND</text><text x="484" y="260" font-size="11.5" fill="#F4F4F2">TypeScript · React · Next.js · Tailwind</text></g>
+<g class="r" style="animation-delay:1.61s"><text x="366" y="281" font-size="8.5" letter-spacing="1.9" fill="#34D399" opacity="0.9">DESIGN</text><text x="484" y="281" font-size="11.5" fill="#F4F4F2">UI/UX · Design systems · Motion</text></g>
+<g class="r" style="animation-delay:1.67s"><text x="366" y="302" font-size="8.5" letter-spacing="1.9" fill="#34D399" opacity="0.9">BACKEND</text><text x="484" y="302" font-size="11.5" fill="#F4F4F2">Node.js · PostgreSQL · Prisma · Neon</text></g>
+<g class="r" style="animation-delay:1.72s"><text x="366" y="323" font-size="8.5" letter-spacing="1.9" fill="#34D399" opacity="0.9">DEPLOY</text><text x="484" y="323" font-size="11.5" fill="#F4F4F2">Vercel</text></g>
+<g class="r" style="animation-delay:1.78s"><text x="366" y="355" font-size="8.5" letter-spacing="1.9" fill="#D9F99D" opacity="0.9">SPEAKS</text><text x="484" y="355" font-size="11.5" fill="#F4F4F2">RU · EN · AZ · KK · TR · AR · FA</text></g>
+<g class="r" style="animation-delay:1.83s"><text x="366" y="376" font-size="8.5" letter-spacing="1.9" fill="#D9F99D" opacity="0.9">STUDYING</text><text x="484" y="376" font-size="11.5" fill="#F4F4F2">System design · Backend · Performance</text></g>
+<g class="r" style="animation-delay:1.89s"><text x="366" y="408" font-size="8.5" letter-spacing="1.9" fill="#34D399" opacity="0.9">GITHUB</text><text x="484" y="408" font-size="11.5" fill="#F4F4F2">kaibov-amin-313</text></g>
+<line class="r" style="animation-delay:1.99s" x1="366" y1="456" x2="860" y2="456" stroke="#26252F" stroke-width="1"/>
+<text class="r" style="animation-delay:2.05s" x="366" y="470" font-size="8.5" letter-spacing="1.1" fill="#A3A2AF">43.2380° N · 76.8829° E</text>
+<text class="r" style="animation-delay:2.09s" x="860" y="470" text-anchor="end" font-size="8.5" letter-spacing="1.1" fill="#A3A2AF">REV 2026.07</text>
+<path d="M8 0.75 H892" stroke="url(#lit)" stroke-width="1.5" fill="none"/>
+<rect x="0.5" y="0.5" width="899" height="495" rx="8" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1"/>
 </svg>
